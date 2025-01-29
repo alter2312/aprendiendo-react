@@ -1,5 +1,5 @@
-import { Square } from "./Square";
-export function WinnerModal ({ resetGame, winner }) {
+import { Square } from "./square";
+export function WinnerModal ( resetGame, winner ) {
   if (winner === null) return;
   const text = winner === false ? 'Empate' : 'Ganó:'
   return(

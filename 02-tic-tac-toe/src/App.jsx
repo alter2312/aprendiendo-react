@@ -4,7 +4,7 @@ import { TURNS } from "./constants.js";
 import { checkWinnerFrom,checkEndGame } from "./logic/board.js";;
 import { WinnerModal } from "./components/WinnerModal.jsx";
 import { Board } from "./components/Board.jsx";
-import { Square } from "./components/Square.jsx";
+import { Square } from "./components/square.jsx";
 import { saveGameStorage, resetGameStorage } from "./logic/index.js";
 function App() {
   const [board, setBoard] = useState(() => {

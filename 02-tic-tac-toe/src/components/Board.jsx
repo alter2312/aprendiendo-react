@@ -1,6 +1,6 @@
-import { Square } from "./Square";
+import { Square } from "./square";
 
-export function Board({ board, updateBoard }) {
+export function Board( board, updateBoard ) {
   return (
     <section className="game">
       {board.map((square, index) => (
